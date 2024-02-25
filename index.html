@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font: times new roman;
+        width: 960px;
+        margin: auto;
+      
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        background-color: lightpink;
+    }
+    .nav ul{
+        
+    }
+    .nav li{
+        height: 50px;
+        width: 10%;
+        list-style-type: none;
+        float: left;
+        margin-top: 10px;
+    }
+    .nav li:hover {
+        color: gold;
+    }
+    .header{
+     height: 90px; 
+      width: 100%; 
+      background-image: url(img/Image20240225154937.jpg);
+    }
+    .menu{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    .section{
+        width: 70%;
+        height: 100%;
+        float: left;
+        background-image: linear-gradient(rgb(106, 199, 205), rgb(249, 249, 245));
+        
+    }
+    .txt{
+        height: 100%;
+        width: 50%;
+        float: left;
+        margin: 10px;
+    }
+    .info{
+        height: 90%;
+        width: 45%;
+        border: 3px outset #333;
+        border-radius: 10px ;
+        border-inline: Information;
+        float: left;
+    }
+    .aside{
+        width: 29%;
+        height: 98%;
+        float: left;
+        border: 3px groove #797373;
+        
+        
+    }
+    .flower{
+        width: 100%;
+        height: 33%;
+        border-top:2px dashed #e27373 ;
+    }
+    .conference{
+        width: 100%;
+        height: 33%;
+        border-top:2px dashed #e27373 ;
+    }
+    .pot{
+        width: 100%;
+        height: 27%;
+        border-top:2px dashed #e27373 ;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        background-color: greenyellow;
+    }
+</style>
+<body>
+<div class="nav">
+    <ul>
+        <li>HOME</li>
+        <li>ABOUT US</li>
+        <li>SERVICES</li>
+        <li>CONTACT</li>
+    </ul>
+    <form action="" style="color: brown;">
+        SEARCH:
+        <input type="text" placeholder="Search here..." style="width: 20%;margin-top: 10px;">
+        <button style="width: 4%;margin-top: 10px;background-color: aqua;">Go</button>
+    </form>
+</div>
+<div class="header"></div>
+<div class="menu">
+    <div class="section">
+        <h2 style="width: 100%;color: brown;text-align: center;">Introduction - Contact</h2>
+        <div class="txt" >
+            Flowering plants are plants which produce flowers as their reproductive structures. They come in a great variety of shapes and sizes and include grasses, sedges, rushes, many trees, as well as familiar plants like daffodils and daisies. Flowers often, though not always, have brightly coloured petals. The flowers conceal inside them the female ovules which will be fertilised by pollen grains. The pollen grains are the male parts of the flower. Fertilised ovules develop into the seeds from which new plants will grow. The fact that the ovules are protected inside flowers has contributed greatly to the success of flowering plants.       </div>
+        <div class="info" >
+            <p style="margin-top: 10%;margin-left: 20px;width: 30%;">Name:</p> 
+            <input type="text" placeholder="Your Name" style="border-radius: 5px; border: 2px outset #333; width: 50%;margin-left: 20px;" required>
+            <br>
+            <p style="margin-left: 20px;width: 30%;">Email:</p> 
+            <input type="text" placeholder="Your Email" style="border-radius: 5px; border: 2px outset #333; width: 50%;margin-left: 20px;" required>
+            <br>
+            <br>
+            <p style="margin-left: 20px;width: 30%;">Gender:</p>
+            Male:
+            <input value="Male" type="checkbox" style="width: 20%;">
+            Female:
+            <input type="checkbox" name="" id="" style="width: 20%;">
+            <br>
+            <br>
+            <button style="width: 30%;margin-left: 10%;border-radius: 3px;border: outset;">Submit</button>
+            <button style="width: 20%;margin-left: 20%;border-radius: 3px;border: outset;">Reset</button>
+        </div>
+    </div>
+    <div class="aside">
+       <p style="color: brown;text-shadow: 5px 5px 5px ; text-align: center;width: 100%;">flower</p> 
+       <div class="flower">
+        <img src="img/Image20240225154906.jpg" alt="" style="width: 95%;height: 80%;border: outset;">
+        <p style="color: brown;text-shadow: 5px 5px 5px ; text-align: center;width: 100%;">flower Couference</p>
+       </div>
+       <div class="conference">
+        <img src="img/Image20240225154942.jpg" alt="" style="width: 95%;height: 80%;border: outset;">
+        <p style="color: brown;text-shadow: 5px 5px 5px ; text-align: center;width: 100%;">flower Pot</p>
+       </div>
+       <div class="pot">
+        <img src="img/Image20240225154954.jpg" alt="" style="width: 95%;height: 80%;border: outset;">
+       </div>
+    </div>
+</div>
+<div class="footer">
+    <p style="margin-left: 10px;width: 40%;float: left;">Mã số sinh viên 22690621 - Họ tên Trần Việt Nhân</p>
+    <p style="float: left; width: 40%;margin-left: 10%;">Lớp DHKTPM18B - Khoa CNTT</p>
+</div>
+</body>
+</html>
